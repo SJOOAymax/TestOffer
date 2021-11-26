@@ -10,6 +10,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+
+/**
+ * Implementation of UserService methods
+ *
+ * @author Seifeddine.joo
+ */
+
+
 @Service
 @Transactional
 public class UserServiceImpl implements UserService {
@@ -33,8 +41,7 @@ public class UserServiceImpl implements UserService {
 
     user.setId(sequenceGeneratorService.getSequenceNumber(User.SEQUENCE_NAME));
     user.setIsActive(isActive);
-    userRepository.save(user);
-    UserDTO result = ObjectMapper.map(user, UserDTO.class);
+    UserDTO result = ObjectMapper.map(userRepository.save(user), UserDTO.class);
     return result;
   }
 

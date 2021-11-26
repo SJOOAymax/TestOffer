@@ -1,0 +1,13 @@
+com.airfrance.testoffer
+com.airfrance.testoffer.config
+com.airfrance.testoffer.controller
+com.airfrance.testoffer.dao
+com.airfrance.testoffer.dto
+com.airfrance.testoffer.entities
+com.airfrance.testoffer.exception
+com.airfrance.testoffer.security
+com.airfrance.testoffer.service
+com.airfrance.testoffer.service.Sequence
+com.airfrance.testoffer.service.impl
+com.airfrance.testoffer.util
+com.airfrance.testoffer.validation

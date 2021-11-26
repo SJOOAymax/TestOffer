@@ -20,7 +20,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-
+/**
+ * This Controller manages all requests on user
+ *
+ * @author Seifeddine.joo
+ */
 
 @RestController
 @RequestMapping("/users")

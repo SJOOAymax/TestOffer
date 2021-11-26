@@ -6,6 +6,13 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+
+/**
+ * Entity of DBSequence
+ *
+ * @author Seifeddine.joo
+ */
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

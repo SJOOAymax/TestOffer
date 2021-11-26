@@ -3,6 +3,11 @@ package com.airfrance.testoffer.util;
 import lombok.NoArgsConstructor;
 import org.modelmapper.ModelMapper;
 
+/**
+ *
+ * @author Seifeddine.joo
+ */
+
 @NoArgsConstructor
 public class ObjectMapper {
 

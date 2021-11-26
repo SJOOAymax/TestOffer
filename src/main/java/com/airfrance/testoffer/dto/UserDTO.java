@@ -12,6 +12,14 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
+
+/**
+ * DTO Class of User
+ *
+ * @author Seifeddine.joo
+ */
+
+
 @Data @AllArgsConstructor
 @NoArgsConstructor
 @ToString
